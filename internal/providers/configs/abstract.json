@@ -1,0 +1,47 @@
+{
+  "name": "Abstract",
+  "id": "abstract",
+  "api_key": "$ABSTRACT_API_KEY",
+  "api_endpoint": "https://api.abstract.inc/v1",
+  "type": "openai-compat",
+  "default_large_model_id": "glm-5.3:superfast",
+  "default_small_model_id": "deepseek-v4-flash:superfast",
+  "models": [
+    {
+      "id": "glm-5.3:superfast",
+      "name": "GLM 5.3",
+      "cost_per_1m_in": 1.19,
+      "cost_per_1m_out": 4.4,
+      "cost_per_1m_in_cached": 0,
+      "cost_per_1m_out_cached": 0.26,
+      "context_window": 262144,
+      "default_max_tokens": 65536,
+      "can_reason": true,
+      "supports_attachments": false
+    },
+    {
+      "id": "kimi-k3:superfast",
+      "name": "Kimi K3",
+      "cost_per_1m_in": 3,
+      "cost_per_1m_out": 12.75,
+      "cost_per_1m_in_cached": 0,
+      "cost_per_1m_out_cached": 0.3,
+      "context_window": 262144,
+      "default_max_tokens": 65536,
+      "can_reason": true,
+      "supports_attachments": false
+    },
+    {
+      "id": "deepseek-v4-flash:superfast",
+      "name": "DeepSeek V4 Flash",
+      "cost_per_1m_in": 0.1,
+      "cost_per_1m_out": 0.25,
+      "cost_per_1m_in_cached": 0,
+      "cost_per_1m_out_cached": 0.05,
+      "context_window": 262144,
+      "default_max_tokens": 65536,
+      "can_reason": true,
+      "supports_attachments": false
+    }
+  ]
+}
